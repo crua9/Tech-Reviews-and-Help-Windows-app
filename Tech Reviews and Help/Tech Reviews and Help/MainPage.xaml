@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="Tech_Reviews_and_Help.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Tech_Reviews_and_Help"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>            
+        </Grid.RowDefinitions>
+        <RelativePanel>
+           <!-- Hamburger Button-->
+            <Button Name="HamburgerButton" RelativePanel.AlignLeftWithPanel="True" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="30" Click="HamburgerButton_Click"/>
+           <!-- Back Button-->
+            <Button Name="BackButton" RelativePanel.RightOf="HamburgerButton" FontFamily="Segoe Mdl2 assets" FontSize="30" Content="&#xE0C4;" Click="BackButton_click"/>
+            <!-- Title of page-->
+            <TextBlock  Name="TitleTextBlock" RelativePanel.RightOf="BackButton" FontSize="28"  FontWeight="Bold" Margin="10,0,0,0"/>
+         <!-- Search
+            <Button Name="SearchButton" RelativePanel.AlignRightWithPanel="True" FontFamily="Segoe MDL2 Assets" FontSize="30" Content="&#xE1A3;"/>
+            <TextBox Name="SearchTextBox" RelativePanel.LeftOf="SearchButton" Height="42" Width="200" FontSize="25" PlaceholderText="Search"/>
+            -->
+            </RelativePanel>
+        <SplitView Name="MySplitView" 
+                   Grid.Row="1"
+                   DisplayMode="CompactOverlay"
+                   OpenPaneLength="200"
+                   CompactPaneLength="50"
+                   HorizontalAlignment="Left">
+            <SplitView.Pane>
+            <ListBox
+                SelectionMode="Single"
+                Name="IconsListBox"
+                 SelectionChanged="IconsListBox_SelectionChanged"
+                >
+                <!-- Home -->
+                    <ListBoxItem Name="Home">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE80F;"/>
+                            <TextBlock Text="Home" FontSize="25" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+                <!-- Share -->
+                    <ListBoxItem Name="Share">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE72D;"/>
+                            <TextBlock Text="Share and Support" FontSize="25" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+                <!-- Video -->
+                    <ListBoxItem Name="Video">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE29B;"/>
+                            <TextBlock Text="Videos" FontSize="25" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+                
+
+                </ListBox>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Frame Name="MyFrame"></Frame>
+            </SplitView.Content>
+        </SplitView>
+
+    </Grid>
+</Page>
