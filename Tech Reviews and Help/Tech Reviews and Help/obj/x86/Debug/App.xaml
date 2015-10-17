@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="Tech_Reviews_and_Help.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Tech_Reviews_and_Help"
+    RequestedTheme="Light">
+
+</Application>
+

@@ -1,0 +1,2 @@
+This app is made to teach people how to do many things with technology. The playlist which this apps videos is at the following.
+https://www.youtube.com/playlist?list=PLioOFeHwQV5w10Zc1axaNrDnM9-eYBGw4
