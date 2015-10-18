@@ -433,7 +433,6 @@ C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Te
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Core\Tech Reviews and Help.xr.xml
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Core\WinMetadata\Windows.winmd
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Core\resources.pri
-C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Tech Reviews and Help.csprojResolveAssemblyReference.cache
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Home.g.i.cs
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Home.g.cs
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Share.g.i.cs
@@ -449,3 +448,19 @@ C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Te
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Home.xbf
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Share.xbf
 C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Video.xbf
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Tech Reviews and Help.csprojResolveAssemblyReference.cache
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Code.xbf
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Code.g.i.cs
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Code.g.cs
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Code.xaml
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Code.xbf
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Windows_UA.xbf
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\WinUA_Hello_Viewer.xbf
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Windows_UA.g.i.cs
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Windows_UA.g.cs
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\WinUA_Hello_Viewer.g.i.cs
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\WinUA_Hello_Viewer.g.cs
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Windows_UA.xaml
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\WinUA_Hello_Viewer.xaml
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\Windows_UA.xbf
+C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\WinUA_Hello_Viewer.xbf

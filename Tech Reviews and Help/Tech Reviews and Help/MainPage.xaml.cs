@@ -27,9 +27,10 @@ namespace Tech_Reviews_and_Help
         {
             this.InitializeComponent();
             MyFrame.Navigate(typeof(Home));
-            TitleTextBlock.Text = "Home";
+         //   TitleTextBlock.Text = "Home";
             BackButton.Visibility = Visibility.Collapsed;
             Home.IsSelected = true;
+            
         }
         //Hamburger Button
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
@@ -37,37 +38,46 @@ namespace Tech_Reviews_and_Help
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
         //Select from the Hamburger list
-        private void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        public void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (Home.IsSelected)
             {
                 MyFrame.Navigate(typeof(Home));
-                TitleTextBlock.Text = "Home";
+              //  TitleTextBlock.Text = "Home";
                 BackButton.Visibility = Visibility.Collapsed;
             }
             else if (Share.IsSelected)
             {
                 MyFrame.Navigate(typeof(Share));
-                TitleTextBlock.Text = "Share";
+              //  TitleTextBlock.Text = "Share and Support";
                 BackButton.Visibility = Visibility.Visible;
             }
             else if (Video.IsSelected)
             {
                 MyFrame.Navigate(typeof(Video));
-                TitleTextBlock.Text = "Video";
+               // TitleTextBlock.Text = "Video";
+                BackButton.Visibility = Visibility.Visible;
+            }
+            else if (Code.IsSelected)
+            {
+                MyFrame.Navigate(typeof(Code));
+               // TitleTextBlock.Text = "Code";
                 BackButton.Visibility = Visibility.Visible;
             }
         }
 
         //Back Button
-        private void BackButton_click(object sender, RoutedEventArgs e)
+        public void BackButton_click(object sender, RoutedEventArgs e)
         {
             if (MyFrame.CanGoBack)
             {
                 MyFrame.GoBack();
-                Home.IsSelected = true;
+               
             }
+            
         }
+
+       
     }
 }
 
