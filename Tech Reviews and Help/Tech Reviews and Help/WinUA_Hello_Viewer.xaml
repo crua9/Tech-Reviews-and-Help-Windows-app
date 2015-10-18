@@ -8,13 +8,28 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <RelativePanel>
-            
-        <Button x:Name="Click_Me" Content="Click Me" HorizontalAlignment="Left" Margin="142,241,0,0" VerticalAlignment="Stretch" Click="Click_Me_Click"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="142,381,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FF02ECE1" HorizontalAlignment="Left" Height="720" Margin="312,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="8" RenderTransformOrigin="0.562,0.544" RelativePanel.AlignVerticalCenterWith="" RelativePanel.AlignTopWithPanel="True" RelativePanel.LeftOf="" RelativePanel.AlignVerticalCenterWithPanel="True"  />
-        <WebView Name="Video" HorizontalAlignment="Left" Height="298" Margin="496,75,0,0" VerticalAlignment="Top" Width="652"/>
 
-        </RelativePanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="Gainsboro" Grid.Column="1" Width="Auto" Height="Auto">
+        <Button x:Name="Click_Me" Grid.Column="1" Content="Click Me"  HorizontalAlignment="Center"  VerticalAlignment="Center" Click="Click_Me_Click" Width="107" /></Grid>
+
+        <Grid Background="Gainsboro" Grid.Column="1" Grid.Row="1" Width="Auto" Height="Auto">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.Row='1'/></Grid>
+
+
+        <Rectangle Fill="Gainsboro" Width="8" Margin="622,0,10,0" VerticalAlignment="Stretch"/>
+
+        <Grid  Grid.Column="0">
+            <WebView Name="Video"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="Auto" Height="Auto"  Grid.Row="0"  Grid.Column="0"  />
+</Grid>
+    
+
     </Grid>
 </Page>

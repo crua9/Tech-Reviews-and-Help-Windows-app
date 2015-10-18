@@ -31,7 +31,11 @@ namespace Tech_Reviews_and_Help
             BackButton.Visibility = Visibility.Collapsed;
             Home.IsSelected = true;
             
+
         }
+
+        
+
         //Hamburger Button
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {

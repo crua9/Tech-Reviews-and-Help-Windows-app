@@ -31,8 +31,8 @@
                    OpenPaneLength="300"
                    CompactPaneLength="50"
                    HorizontalAlignment="Left">
-            <SplitView.Pane>
-                <ListBox
+                        <SplitView.Pane>
+                               <ListBox
                 SelectionMode="Single"
                 Name="IconsListBox"
                  SelectionChanged="IconsListBox_SelectionChanged"

@@ -6,14 +6,16 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
-      <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
       <RootProperty Name="RowDefinitions" />
-      <RootProperty Name="Height" />
+      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
     </RootType>
@@ -84,31 +86,15 @@
     <RootType FullName="Tech_Reviews_and_Help.Share" />
     <RootType FullName="Tech_Reviews_and_Help.Video" />
     <RootType FullName="Tech_Reviews_and_Help.Windows_UA" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Flyout">
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.FlyoutBase">
-      <RootMethod Name="GetAttachedFlyout" />
-      <RootMethod Name="SetAttachedFlyout" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
-      <RootProperty Name="Fill" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Stroke" />
-      <RootProperty Name="VerticalAlignment" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
-      <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Name" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Tech_Reviews_and_Help.WinUA_Hello_Viewer" />
   </Roots.RootTypes>
