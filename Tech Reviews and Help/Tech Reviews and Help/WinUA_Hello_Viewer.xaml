@@ -25,6 +25,7 @@
 
 
         <Rectangle Fill="Gainsboro" Width="8" Margin="622,0,10,0" VerticalAlignment="Stretch"/>
+        
 
         <Grid  Grid.Column="0">
             <WebView Name="Video"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="Auto" Height="Auto"  Grid.Row="0"  Grid.Column="0"  />
