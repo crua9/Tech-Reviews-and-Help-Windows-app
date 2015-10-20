@@ -30,6 +30,10 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Name" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -61,7 +65,6 @@
       <RootProperty Name="DisplayMode" />
       <RootProperty Name="OpenPaneLength" />
       <RootProperty Name="CompactPaneLength" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Pane" />
       <RootProperty Name="Content" />
     </RootType>

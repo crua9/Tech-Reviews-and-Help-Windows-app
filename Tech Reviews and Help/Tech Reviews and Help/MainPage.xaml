@@ -30,7 +30,7 @@
                    DisplayMode="CompactOverlay"
                    OpenPaneLength="300"
                    CompactPaneLength="50"
-                   HorizontalAlignment="Left">
+                   >
                         <SplitView.Pane>
                                <ListBox
                 SelectionMode="Single"

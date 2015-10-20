@@ -25,14 +25,15 @@ namespace Tech_Reviews_and_Help
         public WinUA_Hello_Viewer()
         {
             this.InitializeComponent();
-            Uri U = new Uri("https://www.youtube.com/");//https://www.youtube.com/watch?v=OLE5oAZanA4
+            Uri U = new Uri("https://www.youtube.com/watch?v=OLE5oAZanA4");
             Video.Navigate(U);
+            textBlock.Visibility = Visibility.Collapsed;
         }
 
         private void Click_Me_Click(object sender, RoutedEventArgs e)
         {
             textBlock.Text = "Hello Viewer";
-           // textBlock.Visibility = true;
+           textBlock.Visibility = Visibility.Visible;
         }
     }
 }

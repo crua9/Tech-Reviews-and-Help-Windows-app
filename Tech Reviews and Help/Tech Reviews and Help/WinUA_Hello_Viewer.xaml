@@ -18,19 +18,20 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid Background="Gainsboro" Grid.Column="1" Width="Auto" Height="Auto">
-        <Button x:Name="Click_Me" Grid.Column="1" Content="Click Me"  HorizontalAlignment="Center"  VerticalAlignment="Center" Click="Click_Me_Click" Width="107" /></Grid>
+            <Button x:Name="Click_Me" Grid.Column="1" Content="Click Me"  HorizontalAlignment="Center"  VerticalAlignment="Center" Click="Click_Me_Click" Width="107" />
+        </Grid>
 
         <Grid Background="Gainsboro" Grid.Column="1" Grid.Row="1" Width="Auto" Height="Auto">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.Row='1'/></Grid>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.Row='1' Visibility="Collapsed"/>
+        </Grid>
 
-
-        <Rectangle Fill="Gainsboro" Width="8" Margin="622,0,10,0" VerticalAlignment="Stretch"/>
-        
 
         <Grid  Grid.Column="0">
             <WebView Name="Video"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="Auto" Height="Auto"  Grid.Row="0"  Grid.Column="0"  />
-</Grid>
-    
+        </Grid>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="60,25,0,0" Grid.Row="1" TextWrapping="Wrap" Text="To make a Hello World app, please follow along with the video above. Below is the following code." VerticalAlignment="Top" Height="136" Width="452" FontSize="29.333"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="24,183,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Public WinUA_Hello_Viewer()  {this.InitializeComponent();  textBlock.Visibility = Visibility.Collapsed;  }  {  textBlock.Text = &quot;Hello Viewer&quot;;   textBlock.Visibility = Visibility.Visible;  }" VerticalAlignment="Top" Height="138" Width="581" FontSize="24" FontStyle="Normal" FontWeight="Normal"/>
+
 
     </Grid>
 </Page>
