@@ -13,8 +13,10 @@
         <Button x:Name="button1" Content="Hamburger Menu " HorizontalAlignment="Left" Margin="99,112,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button2" Content="How to get rid of the Frame Rate Counter " HorizontalAlignment="Left" Margin="99,194,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button3" Content="Navigate " HorizontalAlignment="Left" Margin="99,276,0,0" VerticalAlignment="Top"/>
-           
-        
+        <Button x:Name="button4" Content="Anchor" HorizontalAlignment="Left" Margin="111,345,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button5" Content="Comment page" HorizontalAlignment="Left" Margin="111,412,0,0" VerticalAlignment="Top"/>
+
+
         <!-- I need to add a scroll view. Also I need to figure out what else to use other than ugly buttons-->
 
     </Grid>

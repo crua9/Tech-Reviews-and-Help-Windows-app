@@ -118,8 +118,23 @@
     <Compile Include="Windows_UA.xaml.cs">
       <DependentUpon>Windows_UA.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WinUA_Anchor.xaml.cs">
+      <DependentUpon>WinUA_Anchor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinUA_Comment.xaml.cs">
+      <DependentUpon>WinUA_Comment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinUA_FrameRate.xaml.cs">
+      <DependentUpon>WinUA_FrameRate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinUA_Hamburger_Menu.xaml.cs">
+      <DependentUpon>WinUA_Hamburger_Menu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WinUA_Hello_Viewer.xaml.cs">
       <DependentUpon>WinUA_Hello_Viewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinUA_Navigate.xaml.cs">
+      <DependentUpon>WinUA_Navigate.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -167,7 +182,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="WinUA_Anchor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinUA_Comment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinUA_FrameRate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinUA_Hamburger_Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WinUA_Hello_Viewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinUA_Navigate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
