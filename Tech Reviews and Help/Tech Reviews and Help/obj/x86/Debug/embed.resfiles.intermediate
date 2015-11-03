@@ -1,8 +1,14 @@
 App.xbf
 Code.xbf
+Comment.xbf
 Home.xbf
 MainPage.xbf
 Share.xbf
 Video.xbf
 Windows_UA.xbf
+WinUA_Anchor.xbf
+WinUA_Comment.xbf
+WinUA_FrameRate.xbf
+WinUA_Hamburger_Menu.xbf
 WinUA_Hello_Viewer.xbf
+WinUA_Navigate.xbf

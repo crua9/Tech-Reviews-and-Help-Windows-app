@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>27259def-459e-4287-bc74-4338be3686ee</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>BDAFC33CDE49627E30866B8CC32A9D849BFAE8A92D15FEB6B319738BC8F740BC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>36C7ACDC03CC6AB53619A42C9801F54606178BB68DBBA0B8C53C88528F1C2AE6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>27259def-459e-4287-bc74-4338be3686ee_1.0.0.0_x86__m2jp17qkt6ysm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>27259def-459e-4287-bc74-4338be3686ee_m2jp17qkt6ysm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>27259def-459e-4287-bc74-4338be3686ee</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-20T05:54:52.863</Modified>
+      <Modified>2015-11-01T23:57:04.065</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\entrypoint\Tech Reviews and Help.exe">
       <PackagePath>entrypoint\Tech Reviews and Help.exe</PackagePath>
-      <Modified>2015-10-20T05:54:49.658</Modified>
+      <Modified>2015-11-01T23:56:58.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -96,7 +96,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-20T05:54:51.987</Modified>
+      <Modified>2015-11-01T23:57:01.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -496,11 +496,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\Tech Reviews and Help.exe">
       <PackagePath>Tech Reviews and Help.exe</PackagePath>
-      <Modified>2015-10-20T05:54:52.858</Modified>
+      <Modified>2015-11-01T23:57:04.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\Tech Reviews and Help.xr.xml">
       <PackagePath>Tech Reviews and Help.xr.xml</PackagePath>
-      <Modified>2015-10-20T05:35:44.165</Modified>
+      <Modified>2015-11-01T23:56:58.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crua9\Documents\GitHubVisualStudio\Tech-Reviews-and-Help-Windows-app\Tech Reviews and Help\Tech Reviews and Help\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

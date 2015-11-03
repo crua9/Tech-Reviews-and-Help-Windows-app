@@ -49,6 +49,7 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Tech_Reviews_and_Help.Code" />
+    <RootType FullName="Tech_Reviews_and_Help.Comment" />
     <RootType FullName="Tech_Reviews_and_Help.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -89,6 +90,14 @@
     <RootType FullName="Tech_Reviews_and_Help.Share" />
     <RootType FullName="Tech_Reviews_and_Help.Video" />
     <RootType FullName="Tech_Reviews_and_Help.Windows_UA" />
+    <RootType FullName="Tech_Reviews_and_Help.WinUA_Anchor" />
+    <RootType FullName="Tech_Reviews_and_Help.WinUA_Comment" />
+    <RootType FullName="Tech_Reviews_and_Help.WinUA_FrameRate" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
+    <RootType FullName="Tech_Reviews_and_Help.WinUA_Hamburger_Menu" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
@@ -100,5 +109,6 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Tech_Reviews_and_Help.WinUA_Hello_Viewer" />
+    <RootType FullName="Tech_Reviews_and_Help.WinUA_Navigate" />
   </Roots.RootTypes>
 </Roots>

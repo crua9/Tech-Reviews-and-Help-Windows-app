@@ -132,27 +132,39 @@ namespace Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[15];
             _typeNameTable[0] = "Tech_Reviews_and_Help.Code";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Tech_Reviews_and_Help.Home";
-            _typeNameTable[4] = "Tech_Reviews_and_Help.MainPage";
-            _typeNameTable[5] = "Tech_Reviews_and_Help.Share";
-            _typeNameTable[6] = "Tech_Reviews_and_Help.Video";
-            _typeNameTable[7] = "Tech_Reviews_and_Help.Windows_UA";
-            _typeNameTable[8] = "Tech_Reviews_and_Help.WinUA_Hello_Viewer";
+            _typeNameTable[3] = "Tech_Reviews_and_Help.Comment";
+            _typeNameTable[4] = "Tech_Reviews_and_Help.Home";
+            _typeNameTable[5] = "Tech_Reviews_and_Help.MainPage";
+            _typeNameTable[6] = "Tech_Reviews_and_Help.Share";
+            _typeNameTable[7] = "Tech_Reviews_and_Help.Video";
+            _typeNameTable[8] = "Tech_Reviews_and_Help.Windows_UA";
+            _typeNameTable[9] = "Tech_Reviews_and_Help.WinUA_Anchor";
+            _typeNameTable[10] = "Tech_Reviews_and_Help.WinUA_Comment";
+            _typeNameTable[11] = "Tech_Reviews_and_Help.WinUA_FrameRate";
+            _typeNameTable[12] = "Tech_Reviews_and_Help.WinUA_Hamburger_Menu";
+            _typeNameTable[13] = "Tech_Reviews_and_Help.WinUA_Hello_Viewer";
+            _typeNameTable[14] = "Tech_Reviews_and_Help.WinUA_Navigate";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[15];
             _typeTable[0] = typeof(global::Tech_Reviews_and_Help.Code);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Tech_Reviews_and_Help.Home);
-            _typeTable[4] = typeof(global::Tech_Reviews_and_Help.MainPage);
-            _typeTable[5] = typeof(global::Tech_Reviews_and_Help.Share);
-            _typeTable[6] = typeof(global::Tech_Reviews_and_Help.Video);
-            _typeTable[7] = typeof(global::Tech_Reviews_and_Help.Windows_UA);
-            _typeTable[8] = typeof(global::Tech_Reviews_and_Help.WinUA_Hello_Viewer);
+            _typeTable[3] = typeof(global::Tech_Reviews_and_Help.Comment);
+            _typeTable[4] = typeof(global::Tech_Reviews_and_Help.Home);
+            _typeTable[5] = typeof(global::Tech_Reviews_and_Help.MainPage);
+            _typeTable[6] = typeof(global::Tech_Reviews_and_Help.Share);
+            _typeTable[7] = typeof(global::Tech_Reviews_and_Help.Video);
+            _typeTable[8] = typeof(global::Tech_Reviews_and_Help.Windows_UA);
+            _typeTable[9] = typeof(global::Tech_Reviews_and_Help.WinUA_Anchor);
+            _typeTable[10] = typeof(global::Tech_Reviews_and_Help.WinUA_Comment);
+            _typeTable[11] = typeof(global::Tech_Reviews_and_Help.WinUA_FrameRate);
+            _typeTable[12] = typeof(global::Tech_Reviews_and_Help.WinUA_Hamburger_Menu);
+            _typeTable[13] = typeof(global::Tech_Reviews_and_Help.WinUA_Hello_Viewer);
+            _typeTable[14] = typeof(global::Tech_Reviews_and_Help.WinUA_Navigate);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -188,12 +200,18 @@ namespace Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo
         }
 
         private object Activate_0_Code() { return new global::Tech_Reviews_and_Help.Code(); }
-        private object Activate_3_Home() { return new global::Tech_Reviews_and_Help.Home(); }
-        private object Activate_4_MainPage() { return new global::Tech_Reviews_and_Help.MainPage(); }
-        private object Activate_5_Share() { return new global::Tech_Reviews_and_Help.Share(); }
-        private object Activate_6_Video() { return new global::Tech_Reviews_and_Help.Video(); }
-        private object Activate_7_Windows_UA() { return new global::Tech_Reviews_and_Help.Windows_UA(); }
-        private object Activate_8_WinUA_Hello_Viewer() { return new global::Tech_Reviews_and_Help.WinUA_Hello_Viewer(); }
+        private object Activate_3_Comment() { return new global::Tech_Reviews_and_Help.Comment(); }
+        private object Activate_4_Home() { return new global::Tech_Reviews_and_Help.Home(); }
+        private object Activate_5_MainPage() { return new global::Tech_Reviews_and_Help.MainPage(); }
+        private object Activate_6_Share() { return new global::Tech_Reviews_and_Help.Share(); }
+        private object Activate_7_Video() { return new global::Tech_Reviews_and_Help.Video(); }
+        private object Activate_8_Windows_UA() { return new global::Tech_Reviews_and_Help.Windows_UA(); }
+        private object Activate_9_WinUA_Anchor() { return new global::Tech_Reviews_and_Help.WinUA_Anchor(); }
+        private object Activate_10_WinUA_Comment() { return new global::Tech_Reviews_and_Help.WinUA_Comment(); }
+        private object Activate_11_WinUA_FrameRate() { return new global::Tech_Reviews_and_Help.WinUA_FrameRate(); }
+        private object Activate_12_WinUA_Hamburger_Menu() { return new global::Tech_Reviews_and_Help.WinUA_Hamburger_Menu(); }
+        private object Activate_13_WinUA_Hello_Viewer() { return new global::Tech_Reviews_and_Help.WinUA_Hello_Viewer(); }
+        private object Activate_14_WinUA_Navigate() { return new global::Tech_Reviews_and_Help.WinUA_Navigate(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -220,44 +238,86 @@ namespace Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo
                 xamlType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Tech_Reviews_and_Help.Home
+            case 3:   //  Tech_Reviews_and_Help.Comment
                 userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_Home;
+                userType.Activator = Activate_3_Comment;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Tech_Reviews_and_Help.MainPage
+            case 4:   //  Tech_Reviews_and_Help.Home
                 userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_MainPage;
+                userType.Activator = Activate_4_Home;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Tech_Reviews_and_Help.Share
+            case 5:   //  Tech_Reviews_and_Help.MainPage
                 userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_Share;
+                userType.Activator = Activate_5_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Tech_Reviews_and_Help.Video
+            case 6:   //  Tech_Reviews_and_Help.Share
                 userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_Video;
+                userType.Activator = Activate_6_Share;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Tech_Reviews_and_Help.Windows_UA
+            case 7:   //  Tech_Reviews_and_Help.Video
                 userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_Windows_UA;
+                userType.Activator = Activate_7_Video;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  Tech_Reviews_and_Help.WinUA_Hello_Viewer
+            case 8:   //  Tech_Reviews_and_Help.Windows_UA
                 userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_WinUA_Hello_Viewer;
+                userType.Activator = Activate_8_Windows_UA;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  Tech_Reviews_and_Help.WinUA_Anchor
+                userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_WinUA_Anchor;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  Tech_Reviews_and_Help.WinUA_Comment
+                userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_WinUA_Comment;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  Tech_Reviews_and_Help.WinUA_FrameRate
+                userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_WinUA_FrameRate;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  Tech_Reviews_and_Help.WinUA_Hamburger_Menu
+                userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_WinUA_Hamburger_Menu;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  Tech_Reviews_and_Help.WinUA_Hello_Viewer
+                userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_WinUA_Hello_Viewer;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  Tech_Reviews_and_Help.WinUA_Navigate
+                userType = new global::Tech_Reviews_and_Help.Tech_Reviews_and_Help_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_WinUA_Navigate;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
