@@ -17,6 +17,7 @@
         <Button x:Name="button5" Content="Comment page" HorizontalAlignment="Left" Margin="90,456,0,0" VerticalAlignment="Top"/>
         <Button x:Name="WebviewB" Content="WebView" HorizontalAlignment="Left" Margin="99,316,0,0" VerticalAlignment="Top"/>
         <Button x:Name="PicB" Content="Pictures" HorizontalAlignment="Left" Margin="90,522,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Map" Content="Map" HorizontalAlignment="Right" Margin="0,112,509,0" VerticalAlignment="Top" Click="Map1"/>
 
 
         <!-- I need to add a scroll view. Also I need to figure out what else to use other than ugly buttons-->

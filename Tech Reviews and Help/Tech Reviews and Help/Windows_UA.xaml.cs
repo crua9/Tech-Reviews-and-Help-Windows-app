@@ -34,5 +34,10 @@ namespace Tech_Reviews_and_Help
             //TitleTextBlock.Text = "Universal App Hello";
          
         }
+
+        private void Map1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(WindowsUA_Map));
+        }
     }
 }

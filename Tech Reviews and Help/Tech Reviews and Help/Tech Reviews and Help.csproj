@@ -111,12 +111,18 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MapElementData.cs" />
+    <Compile Include="MapExtensions.cs" />
+    <Compile Include="PointList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Share.xaml.cs">
       <DependentUpon>Share.xaml</DependentUpon>
     </Compile>
     <Compile Include="Video.xaml.cs">
       <DependentUpon>Video.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsUA_Map.xaml.cs">
+      <DependentUpon>WindowsUA_Map.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows_UA.xaml.cs">
       <DependentUpon>Windows_UA.xaml</DependentUpon>
@@ -182,6 +188,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Video.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowsUA_Map.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
